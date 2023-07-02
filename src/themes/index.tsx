@@ -15,7 +15,9 @@ export default function Layout({ children, pageOpts }: NextraThemeLayoutProps) {
           Blog - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </Text>
       </PG.Header>
-      <PG.Main>{children}</PG.Main>
+      <PG.Main>
+        <section>{children}</section>
+      </PG.Main>
       <Footer />
     </PG>
   );
